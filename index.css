@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+form option {
+    width: 30%;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+form label {
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+#resultado {
+    color: white;
+    font-weight: bolder;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+#formulario {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
